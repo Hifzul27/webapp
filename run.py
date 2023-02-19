@@ -21,7 +21,7 @@ from PIL import Image, ImageFilter
 
 from PIL import Image, ImageFilter
 
-@app.route('/upload', methods=['POST'])
+@app.route('/api/upload', methods=['POST'])
 def upload_image():
     # Check if the POST request contains a file
     if 'file' not in request.files:
@@ -55,7 +55,7 @@ def upload_image():
 
 
 
-@app.route('/list_files', methods=['GET'])
+@app.route('/api/list_files', methods=['GET'])
 def list_files():
     # Create a list to store the URLs
     urls = []
