@@ -7,8 +7,8 @@ from flask import make_response
 app = Flask(__name__)
 
 # Azure Storage Account Details
-account_name = 'demoaccount2706'
-account_key = 'GGfsvX8wQmc7p7Dv0EETUrpJOn13dY/w45t3nL5m98SzPgS1F5gdwCCLtDXEyVdcDK0lPDu6EzSE+AStp9x20g=='
+account_name = 'staticdemoaccount'
+account_key = '1RYDYqjCYiICsqfboITCKMFmpuRjd0nQdTj29ky0xo/MKP8N5Rer3pvMMW3ee/f2jsXQKCERmF0W+AStgRRdWg=='
 container_name = 'image'
 
 # Create the Blob Service
